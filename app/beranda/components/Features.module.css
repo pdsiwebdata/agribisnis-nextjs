@@ -1,0 +1,54 @@
+/* Features Section */
+.features {
+  background-color: #f0f9f5; /* Warna hijau muda lembut */
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.features .section-title h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #145c37; /* Hijau gelap */
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-item:nth-child(1) {
+  background-color: #e0f7e9; /* Hijau daun muda */
+}
+
+.feature-item:nth-child(2) {
+  background-color: #fdf3e7; /* Kuning panen lembut */
+}
+
+.feature-item:nth-child(3) {
+  background-color: #f4f1ed; /* Cokelat tanah lembut */
+}
+
+.feature-item:nth-child(4) {
+  background-color: #e7f3fd; /* Biru langit cerah */
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #198754;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,4 @@
+.main-menu > li:hover > a,
+.nav-active {
+  background-color: var(--primary-color);
+}

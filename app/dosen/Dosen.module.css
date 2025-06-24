@@ -1,0 +1,160 @@
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("/images/hero/5.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 4rem 1rem;
+    }
+
+ .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+ .hero p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+  }
+    .hero h2 {
+    margin-top: 1.6rem;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+    @media (max-width: 425px) {
+    .hero-content {
+      height: 200px;
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    position: relative;
+  }
+
+  .section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+ .section-title p {
+    max-width: 700px; 
+    margin: 0 auto 1.5rem; 
+    font-size: 1rem; 
+    color: #555;
+ }
+
+ .dosen-section {
+  background: #f9f9f9;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.dosen-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.dosen-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.dosen-card:hover {
+  transform: translateY(-5px);
+}
+
+.dosen-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.dosen-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.dosen-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .dosen-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .dosen-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+.dosen-carousel .dosen-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 0 10px;
+}
+
+.dosen-carousel .dosen-card:hover {
+  transform: translateY(-5px);
+}
+
+.dosen-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.dosen-card h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.25rem;
+  color: #333;
+}
+
+.dosen-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}

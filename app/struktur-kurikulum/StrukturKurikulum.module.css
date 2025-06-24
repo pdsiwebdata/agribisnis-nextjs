@@ -1,0 +1,122 @@
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("/images/hero/5.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 4rem 1rem;
+    }
+    .hero-content {
+    height: 200px;
+    }
+    .hero h2 {
+    margin-top: 3rem;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+    @media (max-width: 425px) {
+    .hero-content {
+      height: 200px;
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+  }
+
+.thead {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+}
+
+/* Gaya untuk border tabel */
+.table.table-bordered {
+  border: 1px solid #dee2e6; /* Warna border tabel */
+}
+
+.table.table-bordered th,
+.table.table-bordered td {
+  border: 1px solid #dee2e6; /* Border pada setiap sel */
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  text-align: left; /* Default alignment untuk teks */
+}
+
+/* Gaya untuk baris tabel bergaris */
+.table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Warna latar belakang untuk baris ganjil */
+}
+
+.table.table-striped tbody tr:nth-of-type(even) {
+  background-color: #ffffff; /* Warna latar belakang untuk baris genap */
+}
+
+/* Gaya untuk alignment tengah vertikal */
+.table.align-middle td,
+.table.align-middle .th {
+  vertical-align: middle; /* Menjajarkan teks ke tengah secara vertikal */
+}
+
+/* Tambahan: Gaya hover untuk baris */
+.table.table-striped tbody tr:hover {
+  background-color: #e9ecef; /* Warna latar belakang saat hover */
+}
+
+/* Membuat tabel bisa menggulir secara horizontal di layar kecil */
+.table-responsive {
+  overflow-x: auto; /* Menambahkan scroll horizontal jika diperlukan */
+  -webkit-overflow-scrolling: touch; /* Untuk tampilan lebih mulus di perangkat sentuh */
+  margin-bottom: 1rem; /* Memberikan margin bawah agar tidak menempel pada elemen lain */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Menyembunyikan scrollbar pada IE */
+}
+
+/* Membuat tabel dalam kontainer responsif */
+.table-responsive table {
+  width: 100%; /* Memastikan tabel menggunakan 100% lebar kontainer */
+  min-width: 600px; /* Atur lebar minimum agar tabel tidak terlalu kecil */
+}
+.semester-title {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-weight: bold;
+  text-align: center !important;
+}
+
+/* Main Content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  width: 50%;
+  height: 3px;
+  background-color: var(--primary-color);
+}

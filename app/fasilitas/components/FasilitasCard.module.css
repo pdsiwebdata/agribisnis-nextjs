@@ -1,0 +1,36 @@
+.fasilitas-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.fasilitas-carousel .dosen-card:hover {
+  transform: translateY(-5px);
+}
+
+.fasilitas-card:hover {
+  transform: translateY(-5px);
+}
+
+.fasilitas-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.fasilitas-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.fasilitas-card p {
+  font-size: 0.95rem;
+  color: #666;
+}

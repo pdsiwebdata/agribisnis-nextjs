@@ -1,0 +1,61 @@
+.dosen-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 0 10px;
+}
+
+.dosen-carousel .dosen-card:hover {
+  transform: translateY(-5px);
+}
+
+.dosen-card:hover {
+  transform: translateY(-5px);
+}
+
+.dosen-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.dosen-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.dosen-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-profile {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-profile:hover {
+  background-color: var(--dark-color);
+}
